@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hellomoon/api": "^1.15.0-alpha.19",
     "axios": "^1.4.0",
     "heatmap.js": "^2.0.5",
     "mini-css-extract-plugin": "^2.7.5"
@@ -19,6 +20,7 @@
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
     "http-proxy-middleware": "^2.0.6",
-    "style-loader": "^3.3.2"
+    "style-loader": "^3.3.2",
+    "webpack-dev-server": "^4.13.3"
   }
 }

@@ -2,10 +2,14 @@ import './style.css';
 import axios from 'axios';
 import * as h337 from 'heatmap.js';
 
-const API_URL = '/api/nft/collection/stats';
+const API_URL = 'https://rest-api.hellomoon.io/v0/nft/collection/leaderboard/stats';
+const headers = {
+  'Authorization': 'Bearer <7f5a84f7-990c-41a0-81d1-e62a32a50fe9>',
+  'Content-Type': 'application/json'
+};
 const heatmapContainer = document.getElementById('heatmapContainer');
 
-axios.get(API_URL)
+axios.get(API_URL, { headers })
   .then(response => {
     const data = response.data;
     console.log('API response:', data); // Add this line

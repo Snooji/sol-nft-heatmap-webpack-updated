@@ -1,6 +1,6 @@
 {
     "/api": {
-      "target": "https://rest-api.hellomoon.io",
+      "target": "https://rest-api.hellomoon.io/v0/nft/collection/leaderboard/stats",
       "secure": true,
       "changeOrigin": true,
       "pathRewrite": { "^/api": "/v0" }
