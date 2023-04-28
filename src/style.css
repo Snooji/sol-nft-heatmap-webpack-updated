@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #heatmapContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  

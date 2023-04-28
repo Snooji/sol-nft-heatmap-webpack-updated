@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://rest-api.hellomoon.io",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": { "^/api": "/v0" }
+    }
+  }
+  
